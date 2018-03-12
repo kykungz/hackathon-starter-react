@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 injectGlobal`
   .App-logo {
-    width: 100px;
+    height: 100px;
     background: #2d2d2d;
   }
 `
