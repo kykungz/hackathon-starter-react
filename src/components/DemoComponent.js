@@ -23,7 +23,7 @@ export default DemoComponent
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const DemoComponent = () => {
+const DemoComponent = (props) => {
   return (
     <div>
     </div>
