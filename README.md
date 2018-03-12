@@ -2,10 +2,10 @@
 
 > Hackathon React Boilerplate
 
-- [] Bootstrap
-- [] [FontAwesome v4.7.0](https://fontawesome.com/v4.7.0/icons/)
+- [x] Bootstrap
+- [x] [FontAwesome v4.7.0](https://fontawesome.com/v4.7.0/icons/)
 - [] State Management (Redux)
-- [] Styled-Components
-- [] Component Template
+- [x] Styled-Components
+- [x] Component Template
 - [] Router
 - [] Firebase
