@@ -1,8 +1,8 @@
 /* Stateful Component */
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
-class DemoComponent extends Component {
+class DemoComponent extends React.Component {
   state = {}
 
   componentDidMount = () => {} // fetch data here
