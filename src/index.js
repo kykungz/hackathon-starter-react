@@ -9,9 +9,11 @@ import 'font-awesome/css/font-awesome.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 injectGlobal`
-  .App-logo {
-    height: 100px;
-    background: #2d2d2d;
+  .App {
+    img {
+      height: 100px;
+      background: #2d2d2d;
+    }
   }
 `
 

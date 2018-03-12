@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Route } from 'react-router-dom'
 
 import Home from '../components/Home'
 import DemoRedux from '../demo/DemoRedux'
 import DemoRouteComponent from '../demo/DemoRouteComponent'
 
-const router = [
+const routes = [
   {
     path: '/',
     exact: true,
@@ -21,4 +21,8 @@ const router = [
   }
 ]
 
-export default router.map((route, i) => <Route key={i} {...route} />)
+export default () => (
+  <Fragment>
+    {routes.map((route, i) => <Route key={i} {...route} />)}
+  </Fragment>
+)
