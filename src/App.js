@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import logo from './assets/logo.svg'
 import routerView from './router'
 
-import DemoRouterLink from './components/DemoRouterLink'
+import DemoRouterLink from './demo/DemoRouterLink'
 
 class App extends React.Component {
   render() {

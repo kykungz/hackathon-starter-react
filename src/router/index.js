@@ -1,23 +1,22 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 
-import DemoRedux from '../components/DemoRedux'
-import DemoRouteComponent from '../components/DemoRouteComponent'
+import Home from '../components/Home'
+import DemoRedux from '../demo/DemoRedux'
+import DemoRouteComponent from '../demo/DemoRouteComponent'
 
 const router = [
   {
     path: '/',
     exact: true,
-    component: () => (
-      <h1><i className="fa fa-home" aria-hidden="true"></i> Home</h1>
-    )
+    component: Home
   },
   {
     path: '/redux',
     component: DemoRedux
   },
   {
-    path: '/route-component/:number',
+    path: '/route-component/:number', // URL params
     component: DemoRouteComponent
   }
 ]
