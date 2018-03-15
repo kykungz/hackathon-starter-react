@@ -10,6 +10,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 injectGlobal`
   .App {
+    padding: 1em;
+
     img {
       height: 100px;
       background: #2d2d2d;
