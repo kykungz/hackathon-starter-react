@@ -1,6 +1,6 @@
 // Actions
-const INCREASE_COUNTER = 'hackathon-stater-react/counter/INCREASE_COUNTER'
-const DECREASE_COUNTER = 'hackathon-stater-react/counter/DECREASE_COUNTER'
+const INCREASE_COUNTER = 'INCREASE_COUNTER'
+const DECREASE_COUNTER = 'DECREASE_COUNTER'
 
 // Initial State
 const initialState = {

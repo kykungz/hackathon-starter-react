@@ -1,5 +1,5 @@
 // Actions
-const ACTION_TYPE = 'projectName/moduleName/actionType'
+const ACTION_TYPE = 'ACTION_TYPE'
 
 // Initial State
 const initialState = {}
