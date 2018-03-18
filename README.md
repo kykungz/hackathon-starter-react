@@ -9,4 +9,4 @@
 - [x] Component Template
 - [x] Router
 - [x] Firebase
-- [ ] Deployment
+- [x] Deployment
